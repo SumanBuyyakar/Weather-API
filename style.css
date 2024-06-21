@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main_container{
+    width: 100vw;
+    height: 100vh;
+    background:url("./ASSETS/weather\ background\ gif.gif");
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+#card_container{
+    width: 350px;
+    height: 450px;
+    /* background-color: brown; */
+    backdrop-filter:blur(4px);
+    background-color: rgba(255,255, 255, 0.1); 
+    /* border:5px solid yellow; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+   flex-basis: 15%;
+   width: 100%;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+}
+
+
+#img_container{
+    flex-basis: 65%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: crimson;
+
+}
+
+#temp_humid{
+    flex-basis: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+#temp,#humid{
+    flex-basis: 50%;
+    /* border: 2px solid green; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#location{
+    display: grid;
+    place-items: center;
+    margin-left: 5px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    color: brown;
+    background-color: peachpuff;
+    border: none;
+    font-family: cursive;
+    
+    
+}
+[type="submit"]{
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+    margin-right: 10px;
+    color: brown;
+    background-color: peachpuff;
+    border: none;
+    text-transform: uppercase;
+}
+.heading{
+    font-family: "Playwrite SK", cursive;
+    color: crimson;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.para{
+    font-family: "Playwrite AU TAS", cursive;
+    color:crimson;
+    font-size: 12px;
+    font-weight: 700;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+::placeholder{
+    color: brown;
+}
+#image{
+    border-radius: 50%;
+}

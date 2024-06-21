@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Application</title>
+    <link rel="icon" href="ASSETS/weather image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+SK:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+            <form>
+                <input type="text" id="location" placeholder="Enter your location">
+                <input type="submit" value="Get Weather">
+            </form>
+            <article id="img_container">
+                <img src="./ASSETS/weather image2.png" alt="" id="image">
+                <h3 id="weather_condition">NULL</h3>
+            </article>
+            <article id="temp_humid">
+                <aside id="temp">
+                    <h1 class="heading">TEMPERATURE</h1>
+                    <p class="para temp_value">0<sup>o</sup>C</p>
+                </aside>
+                <aside id="humid">
+                    <h1 class="heading">HUMIDITY</h1>
+                    <p class="para humid_value">0 KMPH</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
